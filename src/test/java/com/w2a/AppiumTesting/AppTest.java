@@ -34,6 +34,8 @@ public class AppTest {
 		
 		WebElement errorMsg = driver.findElement((By.xpath("//div[contains(text(),'Google Account')]")));
 		System.out.println(errorMsg.getText());
+		
+		System.out.println("Code is working, now got commit");
 	}
 	@AfterClass
 	public void tearDown(){
